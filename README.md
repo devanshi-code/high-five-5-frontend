@@ -50,7 +50,7 @@
  
  • Adobe Illustrator
 
- ## Contributing ##
+ ## Contributing🙌 ##
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
@@ -65,8 +65,12 @@ If you have a suggestion that would make this better, please fork the repo and c
 Distributed under the MIT License. See LICENSE.txt for more information.
 
 
-## Contact ##
-Your Name - @your_twitter - email@example.com
+## Contact📲 ##
+1. Aditi Jha: aditijha201200@gmail.com
+2. Devanshi Mishra: devu2732@gmail.com
+3. Parth Gupta: 
+4. Shyam: 
+
 Project Link: https://github.com/devanshi-code/Skillvallley
 
 
