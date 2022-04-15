@@ -104,5 +104,5 @@ Project Link: https://github.com/devanshi-code/Skillvallley
 
 ●	React Icons
 
-Have fun and get started!
+Have fun and get started!💛
 
