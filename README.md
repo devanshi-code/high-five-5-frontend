@@ -39,40 +39,35 @@
  • Messaging with participants
  <br>
 • High Five can auto-scale tables as your  participant count  increases , without a drop in quality.
+
 ## Built with ##
+ 
  • React JS
- 
  • Nodejs
- 
  • Firebase
- 
  • Adobe XD
- 
  • Adobe Illustrator
 
 ## Getting Started ##
 
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
 
 ## Prerequisites ##
 
-This is an example of how to list things you need to use the software and how to install them.
 ●	npm
 npm install npm@latest -g
 
 ## Installation ##
+Follow the given steps for installation.
 
-Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
-1.	Get a free API Key at https://example.com
-2.	Clone the repo
-git clone https://github.com/your_username_/Project-Name.git
-3.	Install NPM packages
+1.	Clone the repo
+git clone https://github.com/devanshi-code/Skillvallley
+2.	Install NPM packages
 npm install
-4.	Enter your API in config.js
-const API_KEY = 'ENTER YOUR API';
+
+Now you are ready to go..
 
 ## Usage ##
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples, and demos work well in this space. You may also link to more resources.
+
 
  ## Contributing🙌 ##
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
@@ -86,13 +81,12 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 
 ## License ##
-Distributed under the MIT License. See LICENSE.txt for more information.
 
 
 ## Contact📲 ##
 1. Aditi Jha: aditijha201200@gmail.com
 2. Devanshi Mishra: devu2732@gmail.com
-3. Parth Gupta: 
+3. Parth Gupta: parthgupta2510@gmail.com
 4. Shyam: 
 
 Project Link: https://github.com/devanshi-code/Skillvallley
@@ -101,8 +95,5 @@ Project Link: https://github.com/devanshi-code/Skillvallley
 ## Acknowledgments ##
 
 ●	Font Awesome
-
 ●	React Icons
-
-Have fun and get started!💛
 
