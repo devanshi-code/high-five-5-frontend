@@ -6,6 +6,10 @@ import LoginPage from './components/pages/LoginPage'
 import RegisterPage from './components/pages/RegisterPage'
 import ForgetPasswordPage from './components/pages/ForgetPasswordPage'
 import HomePage from './components/pages/HomePage'
+import Dashboard from './components/pages/org-dashboard/Dashboard'
+import Project from './components/pages/org-dashboard/project/Project'
+import Create from './components/pages/org-dashboard/create/Create'
+
 
 import './App.css'
 
@@ -19,6 +23,9 @@ export default function App() {
                     <Route path="/register" component={ RegisterPage } />
                     <Route path="/forget-password" component={ ForgetPasswordPage } />
                     <Route path="/home" component={ HomePage } />
+                    <Route path="/org-dashboard" component={ Dashboard } />
+                    <Route path="/projects/:id" component={ Project } />
+                    <Route path="/create" component={ Create } />
                 </Switch>
                 
             </div>
