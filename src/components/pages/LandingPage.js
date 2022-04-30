@@ -16,6 +16,12 @@ export default function LandingPage() {
                 <Link to="/register">
                     <button className="primary-button" id="reg_btn"><span>register </span></button>
                 </Link>
+                <div>
+                    <Link to="/org-dashboard">
+                        <button className="primary-button"><span>Login as Organiser </span></button>
+                    </Link>
+                </div>
+                
             </div>
         </header>
     )
