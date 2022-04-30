@@ -39,12 +39,7 @@ function Create() {
             type="date"
           />
         </label>
-        <label>
-          <span>Project category:</span>
-        </label>
-        <label>
-          <span>Assign to:</span>
-        </label>
+        <br/><br/><br/>
 
         <button className='btn'>Add Project</button>
       </form>
