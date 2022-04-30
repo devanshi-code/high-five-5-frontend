@@ -5,7 +5,7 @@ import Navbar from '../../Navbar';
 import ProjectList from './ProjectList';
 
 function Dashboard() {
-    const user = 'User';
+    // const user = 'User';
   return (
     <div className='dashboard'>
       <Navbar />
