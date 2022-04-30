@@ -19,7 +19,7 @@ export default function SignInPage() {
                     <input type="password" name="password" required />
                 </p>
                 <p>
-                    <button id="sub_btn" type="submit">Login</button>
+                    <button id="sub_btn" onclick="location.href='org-dashboard/'" type="submit">Login</button>
                 </p>
             </form>
             <footer>
