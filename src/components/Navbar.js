@@ -1,8 +1,16 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom';
 
 import './Navbar.css'
 
 function Navbar() {
+  const history = useHistory()
+
+  const handleLogout = () => {
+    console.log("logging out")
+    history.push('/')
+  }
+
   return (
     <div className='navbar'>
             <div className='logo'>
@@ -16,7 +24,7 @@ function Navbar() {
              <div className='user'>
                     <p>Hey {`user`}</p>
                 </div>
-                <button className='btn'>Logout</button>
+                <button className='btn' onClick={handleLogout}>Logout</button>
             </div>       
     </div>
   )
