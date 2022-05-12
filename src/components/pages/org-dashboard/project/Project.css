@@ -1,3 +1,45 @@
-.project-details{
+/* .projectDetails{
     margin: 20% 40%;
+    color: green;
+} */
+
+.coverImg {
+    margin-top:0;
+    width: 100vw;
+    height: 40vh;
+    position:relative;
+}
+
+.details-container{
+    background-color: rgb(226, 226, 226);
+    /* margin: 0.3em; */
+    height: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.btn-container {
+    width: 100%;
+    align-self: flex-start;
+    display: felx;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100vw;
+    position: relative;
+    background-color: rgb(226, 226, 226);
+}
+
+.event-details{
+    background-color: rgb(210, 208, 208);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    margin: 0.5em;
 }
