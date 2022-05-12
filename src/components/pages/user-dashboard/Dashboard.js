@@ -4,7 +4,7 @@ import React from 'react'
 import Navbar from '../../Navbar';
 import ProjectList from './ProjectList';
 
-function Dashboard() {
+function userdashboard() {
     // const user = 'User';
   return (
     <div className='dashboard'>
@@ -18,4 +18,4 @@ function Dashboard() {
   )
 }
 
-export default Dashboard;
+export default userdashboard;

@@ -21,6 +21,7 @@ export default function SignInPage() {
                 <p>
                     <button id="sub_btn" onclick="location.href='org-dashboard/'" type="submit">Login</button>
                 </p>
+               
             </form>
             <footer>
                 <p>First time? <Link to="/register">Create an account</Link>.</p>

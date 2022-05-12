@@ -7,6 +7,7 @@ import RegisterPage from './components/pages/RegisterPage'
 import ForgetPasswordPage from './components/pages/ForgetPasswordPage'
 import HomePage from './components/pages/HomePage'
 import Dashboard from './components/pages/org-dashboard/Dashboard'
+import userdashboard from './components/pages/user-dashboard/Dashboard'
 import Project from './components/pages/org-dashboard/project/Project'
 import Create from './components/pages/org-dashboard/create/Create'
 
@@ -24,6 +25,7 @@ export default function App() {
                     <Route path="/forget-password" component={ ForgetPasswordPage } />
                     <Route path="/home" component={ HomePage } />
                     <Route path="/org-dashboard" component={ Dashboard } />
+                    <Route path="/user-dashboard" component={ userdashboard } />
                     <Route path="/projects/:id" component={ Project } />
                     <Route path="/create" component={ Create } />
                 </Switch>
