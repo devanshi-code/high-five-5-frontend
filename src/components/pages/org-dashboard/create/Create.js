@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
 import { useHistory } from 'react-router-dom';
 import Navbar from '../../../Navbar';
 import './Create.css';
 
 function Create() {
+  const [newPrize, setNewPrize] = useState("");
+  const [prizes, setPrizes] = useState([]);
+  const prizeInput = useRef(null)
 
     const history = useHistory()
 
@@ -11,6 +14,16 @@ function Create() {
         e.preventDefault();
         alert('project added!');
         history.push('/org-dashboard')
+    }
+    
+    function handleAddPrize(e){
+      e.preventDefault();
+      const pri = newPrize.trim()
+      if (pri && !prizes.includes(pri)) {
+        setPrizes(prevPrizes => [...prevPrizes, newPrize])
+      }
+      setNewPrize('')
+      prizeInput.current.focus()
     }
 
     return (
@@ -34,11 +47,15 @@ function Create() {
           ></textarea>
         </label>
         <label>
-          <span>Prizes</span>
+          <span style={{display:'block'}}>Prizes:   </span>
           <input 
-            required
+            ref={prizeInput}
             type="text"
+            value={newPrize}
+            onChange={(e)=>setNewPrize(e.target.value)}
           />
+          <button className='btn' onClick={handleAddPrize}>Add</button>
+        <p>Prizes:  {prizes.map(i => <em>{i}, </em>)} </p>
         </label>
         <label>
           <span>Start date</span>
