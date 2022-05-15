@@ -33,7 +33,21 @@ function Create() {
           ></textarea>
         </label>
         <label>
-          <span>Set due date:</span>
+          <span>Prizes</span>
+          <input 
+            required
+            type="text"
+          />
+        </label>
+        <label>
+          <span>Start date</span>
+          <input 
+            required
+            type="date"
+          />
+        </label>
+        <label>
+          <span> Due date:</span>
           <input 
             required
             type="date"
