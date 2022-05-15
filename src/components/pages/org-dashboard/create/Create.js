@@ -17,17 +17,17 @@ function Create() {
       <>
       <Navbar />
     <div className='create-form'>
-      <h2 className='page-title'>Create a new project</h2>
+      <h2 className='page-title'>Organise a new hackathon</h2>
       <form onSubmit={handleSubmit}>
         <label>
-          <span>Project name:</span>
+          <span>Hackathon name:</span>
           <input 
             required
             type="text"
           />
         </label>
         <label>
-          <span>Project details:</span>
+          <span>Hackathon details:</span>
           <textarea 
             required
             type="text"
@@ -42,7 +42,7 @@ function Create() {
         </label>
         <br/><br/><br/>
 
-        <button className='btn'>Add Project</button>
+        <button className='btn'>Create Hackathon</button>
       </form>
     </div>
     </>
