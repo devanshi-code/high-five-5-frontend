@@ -13,28 +13,42 @@ function Create() {
         history.push('/org-dashboard')
     }
 
-  return (
+    return (
       <>
       <Navbar />
     <div className='create-form'>
-      <h2 className='page-title'>Organise a new hackathon</h2>
+      <h2 className='page-title'>Create a new project</h2>
       <form onSubmit={handleSubmit}>
         <label>
-          <span>Hackathon name:</span>
+          <span>Project name:</span>
           <input 
             required
             type="text"
           />
         </label>
         <label>
-          <span>Hackathon details:</span>
+          <span>Project details:</span>
           <textarea 
             required
             type="text"
           ></textarea>
         </label>
         <label>
-          <span>Set due date:</span>
+          <span>Prizes</span>
+          <input 
+            required
+            type="text"
+          />
+        </label>
+        <label>
+          <span>Start date</span>
+          <input 
+            required
+            type="date"
+          />
+        </label>
+        <label>
+          <span> Due date:</span>
           <input 
             required
             type="date"
@@ -42,7 +56,7 @@ function Create() {
         </label>
         <br/><br/><br/>
 
-        <button className='btn'>Create Hackathon</button>
+        <button className='btn'>Add Project</button>
       </form>
     </div>
     </>
