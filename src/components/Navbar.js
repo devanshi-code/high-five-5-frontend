@@ -1,5 +1,6 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom';
+ import high_five_logo from '../assets/images/high_five_logo.png';
 
 import './Navbar.css'
 
@@ -14,8 +15,8 @@ function Navbar() {
   return (
     <div className='navbar'>
             <div className='logo'>
-                {/* <img src={} alt="" /> */}
-                <span>logo</span>
+                 <img src={high_five_logo} width="50" height="50" alt="LOGO"  /> 
+                {/* <span>logo</span> */}
             </div>
              {/* <li>
                 

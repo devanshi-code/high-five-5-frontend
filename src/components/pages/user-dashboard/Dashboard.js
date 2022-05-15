@@ -11,9 +11,9 @@ function userdashboard() {
       <Navbar />
       <DashboardHero />
       <h4 className='page-title'>Upcoming hackathons</h4>
-      <ProjectList projects={[{name:'p1', id:'p1' ,dueDate:'May 20, 2022'},{name:'p2', id:'p2' ,dueDate:'May 28, 2022'},{name:'p3', id:'p3' ,dueDate:'Apr 28, 2022'}]}/>
+      <ProjectList projects={[{name:'TechPreksha2022', id:'p1' ,dueDate:'May 28, 2022'},{name:'HackurWay', id:'p2' ,dueDate:'June 3, 2022'},{name:'Execute 2.0', id:'p3' ,dueDate:'June 8, 2022'}]}/>
       <h4 className='page-title'>Registered hackathons</h4>
-      <ProjectList projects={[{name:'pv1', id:'pv1' ,dueDate:'May 20, 2022'},{name:'pv2', id:'pv2' ,dueDate:'May 28, 2022'},{name:'pv3', id:'pv3' ,dueDate:'Apr 28, 2022'}, {name:'pv4', id:'pv4' ,dueDate:'Apr 28, 2022'}, {name:'pv5', id:'pv5' ,dueDate:'Apr 28, 2022'}]}/>
+      <ProjectList projects={[{name:'Gryph Hacks', id:'pv1' ,dueDate:'May 18, 2022'},{name:'MontyHacks V', id:'pv2' ,dueDate:'May 19, 2022'},{name:'Code-a-Thon', id:'pv3' ,dueDate:'May 19, 2022'}, {name:'Frost Hack', id:'pv4' ,dueDate:'May 20, 2022'}]}/>
     </div>
   )
 }
